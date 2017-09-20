@@ -140,11 +140,9 @@ nina_w10.build.board=UBLOX_NINA_W10
 nina_w10.build.f_cpu=240000000L
 nina_w10.build.flash_mode=qio
 nina_w10.build.flash_size=2MB
-
-nina_w10.menu.FlashFreq.80=80MHz
-nina_w10.menu.FlashFreq.80.build.flash_freq=80m
-nina_w10.menu.FlashFreq.40=40MHz
-nina_w10.menu.FlashFreq.40.build.flash_freq=40m
+nina_w10.build.flash_freq=80m
+nina_w10.build.boot=bootloader_qio
+nina_w10.build.partitions=minimal
 
 nina_w10.menu.UploadSpeed.921600=921600
 nina_w10.menu.UploadSpeed.921600.upload.speed=921600
